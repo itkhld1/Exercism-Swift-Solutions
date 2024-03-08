@@ -9,7 +9,7 @@ func bonusPoints(powerUpActive: Bool, touchingEagle: Bool) -> Bool {
 func score(touchingPowerUp: Bool, touchingSeed: Bool) -> Bool {
   if touchingPowerUp || touchingSeed {
                                       return true
-  } else{
+  } else {
       return false
   }
 }
